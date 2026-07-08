@@ -1,0 +1,27 @@
+.gitignore
+  s_435a170b41bbe5::t_5a225cda395a13 1-2
+package-lock.json
+  s_435a170b41bbe5::t_0550d9a55a95dd 1-2806
+package.json
+  s_435a170b41bbe5::t_b18bce9dbce140 1-19
+src/index.ts
+  s_435a170b41bbe5::t_87c7dd701b53ce 1-5
+vite.config.ts
+  s_435a170b41bbe5::t_6eedf5c049e132 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9ef8b6f6290fa0c644c6c7a12173958bb35439c3",
+  "prompts": {},
+  "sessions": {
+    "s_435a170b41bbe5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "da87b95e-80e9-4bbc-973d-22928baf31f3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "bert.degeyter <bert.degeyter@showpad.com>"
+    }
+  }
+}
