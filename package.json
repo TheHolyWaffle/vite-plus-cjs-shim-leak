@@ -1,0 +1,19 @@
+{
+  "name": "vite-plus-cjs-shim-leak",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "vp pack",
+    "repro": "node -e \"require('./dist/index.cjs')\""
+  },
+  "devDependencies": {
+    "vite-plus": "0.2.3"
+  }
+}
